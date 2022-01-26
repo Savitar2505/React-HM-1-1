@@ -1,6 +1,6 @@
 import React from "react";
-import TodoSearch from "./todoSearch";
-import TodoStatusFilter from "./todoStatusFilter";
+import TodoSearch from "../todoSearch";
+import TodoStatusFilter from "../todoStatusfilter/todoStatusFilter";
 
 const TodoHeader = () => {
   return (
@@ -10,4 +10,5 @@ const TodoHeader = () => {
       </div>
   )
 }
+
 export default TodoHeader
