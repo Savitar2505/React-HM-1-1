@@ -1,6 +1,6 @@
 import React from "react";
-import TodoHeader from "./todoHeader";
-import TodoList from "./todoList";
+import TodoHeader from "../todoHeader/todoHeader";
+import TodoList from "../todoList/todoList";
 
 const App = () => {
 
